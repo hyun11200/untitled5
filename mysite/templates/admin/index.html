@@ -56,8 +56,8 @@
 {% block sidebar %}
 <div id="content-related">
     <div class="module" id="recent-actions-module">
-        <h2>{% trans 'YoungJun Recent actions' %}</h2>
-        <h3>{% trans 'YoungJun actions' %}</h3>
+        <h2>{% trans 'Recent changes' %}</h2>
+        <h3>{% trans 'Hyunseok Do' %}</h3>
             {% load log %}
             {% get_admin_log 10 as admin_log for_user user %}
             {% if not admin_log %}
